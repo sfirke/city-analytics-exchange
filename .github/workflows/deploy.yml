@@ -1,0 +1,38 @@
+name: Build and Deploy Zola Site
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+
+        permissions:
+            pages: write
+            id-token: write
+
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+
+            - name: Install Zola
+              run: sudo snap install --edge Zola
+
+            - name: Build Site
+              run: zola build
+
+            - name: Upload pages artifact
+              id: deployment
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: public/
+
+            - name: Deploy to GitHub Pages
+              uses: actions/deploy-pages@v4
