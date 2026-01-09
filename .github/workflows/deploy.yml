@@ -23,7 +23,7 @@ jobs:
                   submodules: recursive
 
             - name: Install Zola
-              run: sudo snap install --edge Zola
+              run: sudo snap install --edge zola
 
             - name: Build Site
               run: zola build
