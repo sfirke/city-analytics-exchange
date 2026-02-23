@@ -20,3 +20,5 @@ As of 2026, we have about 100 members in our Slack chat and a couple of dozen at
 ## Get In Touch
 
 Our Slack and meetings are open to anyone working in local government. If that's you, ping Sam Firke on LinkedIn and he'll get you a link to the Slack and add you to the calendar invites.
+
+[Join our mailing list](/pages/join) to receive invitations to meetings and our Slack chat.

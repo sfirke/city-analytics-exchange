@@ -16,3 +16,5 @@ We meet on:
 ## Meeting Format
 
 Our meetings are typically a mix of Coffee Chats (breaking out for open discussion in small groups) and Show & Tell presentations.
+
+[Join our mailing list](/pages/join) to receive invitations to meetings and our Slack chat.

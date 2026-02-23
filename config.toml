@@ -24,10 +24,6 @@ taxonomies = [
 ]
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-highlight_theme = "css"
 
 [extra]
 
@@ -36,6 +32,7 @@ even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/pages/about", name = "About"},
     {url = "$BASE_URL/pages/meetings", name = "Meetings"},
+    {url = "$BASE_URL/pages/join", name = "Join"},
 ]
 
 # Site title for the theme
