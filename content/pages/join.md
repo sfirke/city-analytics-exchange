@@ -106,7 +106,7 @@ author = "CAE"
                     document.getElementById('sib-captcha').dispatchEvent(event);
                   }
                 </script>
-                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdGbnUsAAAAAMvPEdGU_MjTPRlgS0i5DHx3w6om" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
+                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6Lf8fnUsAAAAADw3q2Yza8CJXuFa9KoaHK_QjuAf" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
               </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;"></label>
             </div>
