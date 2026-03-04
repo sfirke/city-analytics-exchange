@@ -13,6 +13,8 @@ author = "Sam Firke"
 
 Our first meeting of 2026 was on January 14th. We had a show-and-tell meeting featuring demos of three tools/products mentioned at our November meeting.
 
+<!-- more -->
+
 ### Logic Models
 **Andy Viren, City of Philadelphia**
 
