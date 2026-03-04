@@ -1,6 +1,7 @@
 +++
 title = "January 2026 CAE Meeting Recap"
 date = 2026-01-14
+slug = "january-2026-meeting-notes"
 description = "Recap of Jan 2026 meeting"
 
 [taxonomies]
