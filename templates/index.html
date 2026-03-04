@@ -111,12 +111,14 @@
                                             {% if page.summary %}
                                                 {{ page.summary | safe }}
                                             {% else %}
-                                                <p>{{ page.content | striptags | truncate(length=280) }}</p>
+                                                {{ page.content | safe }}
                                             {% endif %}
                                         </div>
-                                        <div class="read-more">
-                                            <a href="{{ page.permalink }}">Read more...</a>
-                                        </div>
+                                        {% if page.summary %}
+                                            <div class="read-more">
+                                                <a href="{{ page.permalink }}">Read more...</a>
+                                            </div>
+                                        {% endif %}
                                     </article>
                                 {% endfor %}
                             </div>

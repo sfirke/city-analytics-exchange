@@ -1,11 +1,11 @@
 +++
-title = "January 2026 CAE Meeting Recap"
-date = 2026-01-14
-description = "Recap of Jan 2026 meeting"
+title = "March 2026 CAE Meeting Preview"
+date = 2026-03-04
+description = "What we're up to in March"
 
 [taxonomies]
 categories = ["Meetings"]
-tags = ["meeting_recap"]
+tags = ["meeting_preview"]
 
 [extra]
 author = "Sam Firke"
@@ -19,3 +19,5 @@ Breakout rooms will be for:
 - Ongoing work (e.g., tracking it on a Kanban board)
 - Evaluate outcomes
 - Telling the story
+
+Want to participate? Join the [mailing list](/pages/join) as we'll use that to send out the meeting appointment and join link.
