@@ -1,0 +1,17 @@
+{% macro title(page) %}
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">{{ page.date | date(format="%F") }}</span>
+            {% if page.taxonomies and page.taxonomies.categories %}
+                <div class="post__category">
+                    {% for category in page.taxonomies.categories %}
+                        <a href="{{ get_taxonomy_url(kind="categories", name=category) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </header>
+{% endmacro title %}
