@@ -12,7 +12,7 @@ tags = ["meeting_preview"]
 author = "Sam Firke"
 +++
 
-Our July meeting is pushed back a week this year, to July 17th @ 12pm ET / 9am PT. We will be talking **knowledge management**.
+Our July meeting is pushed back a week this year, to July 17th @ 12pm ET / 9am PT. We will be talking **knowledge management**. How do you and your colleagues capture and share information?
 
 This is a discussion call. No presenters. We'll self-select into two groups:
 
