@@ -1,5 +1,5 @@
 +++
-title = "July 2026 CAE Meeting Preview"
+title = "September 2026 CAE Meeting Preview"
 date = 2026-09-06
 slug = "sep-2026-meeting-preview"
 description = "September 2026 CAE meeting: show-and-tell demos"
